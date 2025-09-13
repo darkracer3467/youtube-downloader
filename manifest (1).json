@@ -1,0 +1,12 @@
+{
+  "background_color": "#667eea",
+  "display": "standalone",
+  "name": "ytmusıc",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Downloadermusic",
+  "start_url": "/",
+  "theme_color": "#667eea",
+  "id": "musicdownload",
+  "description": "musicdownload"
+}
