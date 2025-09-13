@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Müzik/Ses İndirici</h1>
+        <div class="search-section">
+            <form id="searchForm">
+                <label for="query">Şarkı veya Sanatçı Adı:</label>
+                <input type="text" id="query" name="query" placeholder="Şarkı veya sanatçı adı girin..." required>
+                <button type="submit">Ara</button>
+            </form>
+        </div>
+        
+        <div id="results" class="results-section"></div>
+        <div id="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
